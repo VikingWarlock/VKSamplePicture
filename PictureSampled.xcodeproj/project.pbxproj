@@ -14,7 +14,7 @@
 		090D159D1B88323900ECFF2A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090D159C1B88323900ECFF2A /* Images.xcassets */; };
 		090D15A01B88323900ECFF2A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 090D159E1B88323900ECFF2A /* LaunchScreen.xib */; };
 		090D15AC1B88323A00ECFF2A /* PictureSampledTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 090D15AB1B88323A00ECFF2A /* PictureSampledTests.m */; };
-		090D15EF1B8868F500ECFF2A /* ImageProcesser.m in Sources */ = {isa = PBXBuildFile; fileRef = 090D15EE1B8868F500ECFF2A /* ImageProcesser.m */; };
+		090D15EF1B8868F500ECFF2A /* VKSamplePicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 090D15EE1B8868F500ECFF2A /* VKSamplePicture.m */; };
 		090D160B1B88694900ECFF2A /* da.png in Resources */ = {isa = PBXBuildFile; fileRef = 090D15F11B88694800ECFF2A /* da.png */; };
 		090D160C1B88694900ECFF2A /* xuan.png in Resources */ = {isa = PBXBuildFile; fileRef = 090D15F21B88694800ECFF2A /* xuan.png */; };
 		090D160D1B88694900ECFF2A /* test3.png in Resources */ = {isa = PBXBuildFile; fileRef = 090D15F31B88694800ECFF2A /* test3.png */; };
@@ -68,8 +68,8 @@
 		090D15A51B88323A00ECFF2A /* PictureSampledTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictureSampledTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		090D15AA1B88323A00ECFF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		090D15AB1B88323A00ECFF2A /* PictureSampledTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureSampledTests.m; sourceTree = "<group>"; };
-		090D15ED1B8868F400ECFF2A /* ImageProcesser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageProcesser.h; path = SamplePicture/ImageProcesser.h; sourceTree = "<group>"; };
-		090D15EE1B8868F500ECFF2A /* ImageProcesser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageProcesser.m; path = SamplePicture/ImageProcesser.m; sourceTree = "<group>"; };
+		090D15ED1B8868F400ECFF2A /* VKSamplePicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VKSamplePicture.h; path = SamplePicture/VKSamplePicture.h; sourceTree = "<group>"; };
+		090D15EE1B8868F500ECFF2A /* VKSamplePicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VKSamplePicture.m; path = SamplePicture/VKSamplePicture.m; sourceTree = "<group>"; };
 		090D15F11B88694800ECFF2A /* da.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = da.png; path = DemoPic/da.png; sourceTree = "<group>"; };
 		090D15F21B88694800ECFF2A /* xuan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xuan.png; path = DemoPic/xuan.png; sourceTree = "<group>"; };
 		090D15F31B88694800ECFF2A /* test3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = test3.png; path = DemoPic/test3.png; sourceTree = "<group>"; };
@@ -181,8 +181,8 @@
 		090D15EC1B8868E800ECFF2A /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				090D15ED1B8868F400ECFF2A /* ImageProcesser.h */,
-				090D15EE1B8868F500ECFF2A /* ImageProcesser.m */,
+				090D15ED1B8868F400ECFF2A /* VKSamplePicture.h */,
+				090D15EE1B8868F500ECFF2A /* VKSamplePicture.m */,
 			);
 			name = Class;
 			sourceTree = "<group>";
@@ -348,7 +348,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				090D15EF1B8868F500ECFF2A /* ImageProcesser.m in Sources */,
+				090D15EF1B8868F500ECFF2A /* VKSamplePicture.m in Sources */,
 				090D15981B88323900ECFF2A /* ViewController.m in Sources */,
 				090D15951B88323900ECFF2A /* AppDelegate.m in Sources */,
 				090D15921B88323900ECFF2A /* main.m in Sources */,

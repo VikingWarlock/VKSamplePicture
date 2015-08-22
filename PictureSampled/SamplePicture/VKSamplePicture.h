@@ -1,5 +1,5 @@
 //
-//  ImageProcesser.h
+//  VKSamplePicture.h
 //  PictureSampled
 //
 //  Created by VKWK on 8/22/15.
@@ -29,7 +29,7 @@
 @import UIKit;
 @import Foundation;
 
-@interface ImageProcesser : NSObject
+@interface VKSamplePicture : NSObject
 
 /**
  *Setup your picture

@@ -1,16 +1,16 @@
 //
-//  ImageProcesser.m
+//  VKSamplePicture.m
 //  PictureSampled
 //
 //  Created by VKWK on 8/22/15.
 //  Copyright (c) 2015 VKWK. All rights reserved.
 //
 
-#import "ImageProcesser.h"
+#import "VKSamplePicture.h"
 @import QuartzCore;
 @import ImageIO;
 
-@interface ImageProcesser()
+@interface VKSamplePicture()
 {
     CGContextRef imageContext;
     CGImageRef imageref;
@@ -28,7 +28,7 @@
 }
 @end
 
-@implementation ImageProcesser
+@implementation VKSamplePicture
 
 //+(ImageProcesser*)sharedObject
 //{

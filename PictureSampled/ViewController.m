@@ -7,13 +7,13 @@
 //
 
 #import "ViewController.h"
-#import "ImageProcesser.h"
+#import "VKSamplePicture.h"
 
 @interface ViewController ()<UINavigationControllerDelegate,UIImagePickerControllerDelegate>
 {
     UIView *screen[64][64];
     UIImageView *originalImageView;
-    ImageProcesser *processer;
+    VKSamplePicture *processer;
     NSMutableArray *imageList;
     int index;
     int sampleW;
@@ -31,7 +31,7 @@
     
     [self resetImageset];
     
-    processer=[[ImageProcesser alloc]init];
+    processer=[[VKSamplePicture alloc]init];
     
     
     sampleW=15;
